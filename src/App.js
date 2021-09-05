@@ -2,7 +2,7 @@ import "./App.css";
 import React, { Fragment } from "react";
 
 const App = ({ value }) => {
-  /*
+  /* //Способ 1 
 if (value===1){
 
 return( <div className="season">
@@ -37,7 +37,7 @@ else if (value===4){
 
     */
 
-  /*
+  /* //Способ 2
   switch (value) {
     case 1:
     return (
@@ -70,7 +70,7 @@ else if (value===4){
    
   }
 */
-  /*
+  /* //Способ 3
   return value === 1 ? (
     <div className="season">
       <img className="season_img" src="/img/win.jpg" alt="" />
@@ -94,7 +94,7 @@ else if (value===4){
   );
 
 */
-  /*
+  /* //Способ 4
   return (
     <div className="season">
       {value === 1 ? (
@@ -123,7 +123,7 @@ else if (value===4){
 
 */
 
-/*
+/* /Способ 5
   return (
     <div className="season">
       <img
